@@ -1894,7 +1894,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },{
     name: "Yukari Mizumoto (2nd Perm)",
-    img: "tbhkNay.png",
+    img: "bHfGaoe.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ]
     }
