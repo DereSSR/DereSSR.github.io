@@ -1227,7 +1227,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "PASS" ]
     }
   },{
-    name: "Karen (Perm)",
+    name: "Karen Hojo (Perm)",
     img: "bSDrfaw.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ]
