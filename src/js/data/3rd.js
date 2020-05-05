@@ -1137,7 +1137,8 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
     }    
   },
-    //END OF LIM SSR START OF PERM SSR{
+    //END OF LIM SSR START OF PERM SSR
+  {
     name: "Uzuki Shimamura (1st Perm)",
     img: "QziZV0R.png",
     opts: {
