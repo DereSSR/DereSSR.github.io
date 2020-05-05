@@ -12,7 +12,7 @@ dataSet[dataSetVersion].options = [
       { name: "Year 2 Limited SSRs (24)", key: "Y2" },
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
-      { name: "Year 5 Limited SSRs (21)", key: "Y5" },
+      { name: "Year 5 Limited SSRs (24)", key: "Y5" },
       { name: "Cinderella Festival SSRs (35)", key: "FES"},
       { name: "Permanent SSRs (197)", key: "PERM"},
     ]
@@ -1117,8 +1117,27 @@ dataSet[dataSetVersion].characterData = [
     img: "UO0sGtQ.png",
     opts: {
       Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ]
-    } //END OF LIM SSR START OF PERM SSR   
+    }
   },{
+    name: "Uzuki Shimamura (New Adventure)",
+    img: "XcwvR8i.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ]
+    }
+  },{
+    name: "Rin Shibuya (New Adventure)",
+    img: "KhAKq2E.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
+    }
+  },{
+    name: "Mio Honda (New Adventure)",
+    img: "pGtLApC.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
+    }    
+  },
+    //END OF LIM SSR START OF PERM SSR{
     name: "Uzuki Shimamura (1st Perm)",
     img: "QziZV0R.png",
     opts: {
@@ -1227,7 +1246,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "PASS" ]
     }
   },{
-    name: "Karen Hojo (Perm)",
+    name: "Karen (Perm)",
     img: "bSDrfaw.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ]
@@ -1894,7 +1913,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },{
     name: "Yukari Mizumoto (2nd Perm)",
-    img: "bHfGaoe.png",
+    img: "tbhkNay.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ]
     }
