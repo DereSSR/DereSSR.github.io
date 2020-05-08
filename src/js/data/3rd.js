@@ -1138,7 +1138,7 @@ dataSet[dataSetVersion].characterData = [
     }    
   },
     //END OF LIM SSR START OF PERM SSR
-  {
+    {
     name: "Uzuki Shimamura (1st Perm)",
     img: "QziZV0R.png",
     opts: {
@@ -1247,7 +1247,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "PASS" ]
     }
   },{
-    name: "Karen (Perm)",
+    name: "Karen Hojo (Perm)",
     img: "bSDrfaw.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ]
@@ -1914,7 +1914,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },{
     name: "Yukari Mizumoto (2nd Perm)",
-    img: "tbhkNay.png",
+    img: "bHfGaoe.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ]
     }
