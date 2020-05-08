@@ -1490,7 +1490,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Rina Fujimoto (Perm)",
     img: "ytJAb5V.png",
     opts: {
-      Year: [ "PERM" ], Type: [ "COOL" ]
+      Year: [ "PERM" ], Type: [ "CUTE" ]
     }
   },{
     name: "Kozue Yusa (1st Perm)",
