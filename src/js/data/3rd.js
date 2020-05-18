@@ -14,7 +14,7 @@ dataSet[dataSetVersion].options = [
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (24)", key: "Y5" },
       { name: "Cinderella Festival SSRs (35)", key: "FES"},
-      { name: "Permanent SSRs (198)", key: "PERM"},
+      { name: "Permanent SSRs (199)", key: "PERM"},
     ]
   },
  {
@@ -2323,6 +2323,12 @@ dataSet[dataSetVersion].characterData = [
   },{
     name: "Wakaba Kusakabe (Perm)",
     img: "pk3kxgS.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ]
+    }
+  },{
+    name: "Kiyora Yanagi (Perm)",
+    img: "vlYZ55U.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ]
     }
