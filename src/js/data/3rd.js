@@ -12,7 +12,7 @@ dataSet[dataSetVersion].options = [
       { name: "Year 2 Limited SSRs (24)", key: "Y2" },
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
-      { name: "Year 5 Limited SSRs (24)", key: "Y5" },
+      { name: "Year 5 Limited SSRs (27)", key: "Y5" },
       { name: "Cinderella Festival SSRs (35)", key: "FES"},
       { name: "Permanent SSRs (201)", key: "PERM"},
     ]
@@ -1135,6 +1135,24 @@ dataSet[dataSetVersion].characterData = [
     img: "pGtLApC.png",
     opts: {
       Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
+    }    
+  },{
+    name: "Chitose Kurosaki (Pure Bridal)",
+    img: "uxTf4MN.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ]
+    }    
+  },{
+    name: "Eve Santaclaus (Pure Bridal)",
+    img: "eMjlINt.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
+    }    
+  },{
+    name: "Mizuki Kawashima (Pure Bridal)",
+    img: "m8Yi84v.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
     }    
   },
     //END OF LIM SSR START OF PERM SSR
