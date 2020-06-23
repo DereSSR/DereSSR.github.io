@@ -14,7 +14,7 @@ dataSet[dataSetVersion].options = [
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (27)", key: "Y5" },
       { name: "Cinderella Festival SSRs (35)", key: "FES"},
-      { name: "Permanent SSRs (201)", key: "PERM"},
+      { name: "Permanent SSRs (205)", key: "PERM"},
     ]
   },
  {
@@ -2361,6 +2361,24 @@ dataSet[dataSetVersion].characterData = [
     img: "yzfQCxc.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
+    name: "Yoriko Furusawa (Perm)",
+    img: "cLMXmIL.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
+    name: "Miyako Anzai (Perm)",
+    img: "USkoyZO.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ]
+    }
+  },{
+    name: "Naho Ebihara (Perm)",
+    img: "wUMvjkc.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ]
     }
   },
   
