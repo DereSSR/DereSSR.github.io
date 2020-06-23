@@ -1487,6 +1487,12 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "PASS" ]
     }
   },{
+    name: "Ryo Matsunaga (Perm)",
+    img: "DoS5jUT.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
     name: "Hiromi Seki (1st Perm)",
     img: "Wa5N5rD.png",
     opts: {
