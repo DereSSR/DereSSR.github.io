@@ -12,8 +12,8 @@ dataSet[dataSetVersion].options = [
       { name: "Year 2 Limited SSRs (24)", key: "Y2" },
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
-      { name: "Year 5 Limited SSRs (27)", key: "Y5" },
-      { name: "Cinderella Festival SSRs (35)", key: "FES"},
+      { name: "Year 5 Limited SSRs (30)", key: "Y5" },
+      { name: "Cinderella Festival SSRs (37)", key: "FES"},
       { name: "Permanent SSRs (205)", key: "PERM"},
     ]
   },
@@ -282,6 +282,18 @@ dataSet[dataSetVersion].characterData = [
     img: "EqXcuSj.png",
     opts: {
       Year: [ "FES" ], Ticket: [], Type: [ "COOL" ]
+    }
+  },{
+    name: "Frederica Miyamoto (Cinfes)",
+    img: "JSSnp3C.png",
+    opts: {
+      Year: [ "FES" ], Ticket: [], Type: [ "CUTE" ]
+    }
+  },{
+    name: "Aiko Takamori (Cinfes)",
+    img: "j4TxzXD.png",
+    opts: {
+      Year: [ "FES" ], Ticket: [], Type: [ "PASS" ]
     }
   }, //END OF FES SSR START OF LIM SSR
   {
@@ -1148,11 +1160,29 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
     }    
-  },{
+  },{ 
     name: "Mizuki Kawashima (Pure Bridal)",
     img: "m8Yi84v.png",
     opts: {
       Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
+    }    
+  },{
+    name: "Akira Sunazuka (Tanabata☆Summer)",
+    img: "vGOEEI4.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
+    }    
+  },{
+    name: "Kozue Yusa (Tanabata☆Summer)",
+    img: "0qngH6p.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ]
+    }    
+  },{
+    name: "Natalia (Tanabata☆Summer)",
+    img: "QSeDE2I.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
     }    
   },
     //END OF LIM SSR START OF PERM SSR
