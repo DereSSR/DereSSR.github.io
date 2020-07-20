@@ -14,7 +14,7 @@ dataSet[dataSetVersion].options = [
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (30)", key: "Y5" },
       { name: "Cinderella Festival SSRs (37)", key: "FES"},
-      { name: "Permanent SSRs (205)", key: "PERM"},
+      { name: "Permanent SSRs (209)", key: "PERM"},
     ]
   },
  {
@@ -2415,6 +2415,30 @@ dataSet[dataSetVersion].characterData = [
     img: "wUMvjkc.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ]
+    }
+  },{
+    name: "Saori Okuyama (Perm)",
+    img: "4NymtbN.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ]
+    }
+  },{
+    name: "Chinami Komuro (Perm)",
+    img: "XuRG4II.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
+    name: "Nagisa Aino (Perm)",
+    img: "q705y3a.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ]
+    }
+  },{
+    name: "Otoha Umeki (Perm)",
+    img: "ezrRjeK.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
     }
   },
   
