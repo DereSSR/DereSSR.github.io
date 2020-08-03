@@ -12,9 +12,9 @@ dataSet[dataSetVersion].options = [
       { name: "Year 2 Limited SSRs (24)", key: "Y2" },
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
-      { name: "Year 5 Limited SSRs (30)", key: "Y5" },
+      { name: "Year 5 Limited SSRs (33)", key: "Y5" },
       { name: "Cinderella Festival SSRs (37)", key: "FES"},
-      { name: "Permanent SSRs (209)", key: "PERM"},
+      { name: "Permanent SSRs (211)", key: "PERM"},
     ]
   },
  {
@@ -1183,6 +1183,24 @@ dataSet[dataSetVersion].characterData = [
     img: "QSeDE2I.png",
     opts: {
       Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
+    }    
+  },{
+    name: "Akari Tsujino (Fruitful Summer Ocean)",
+    img: "QFsxZe3.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ]
+    }    
+  },{
+    name: "Airi Totoki (Fruitful Summer Ocean)",
+    img: "aHOw0rF.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
+    }    
+  },{
+    name: "Kako Takafuji (Fruitful Summer Ocean)",
+    img: "u55aqoY.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
     }    
   },
     //END OF LIM SSR START OF PERM SSR
@@ -2437,6 +2455,18 @@ dataSet[dataSetVersion].characterData = [
   },{
     name: "Otoha Umeki (Perm)",
     img: "ezrRjeK.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
+    name: "Aoi Syuto (Perm)",
+    img: "H2pMa87.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ]
+    }
+  },{
+    name: "Rei Shinohara (Perm)",
+    img: "DetQTvK.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ]
     }
