@@ -14,7 +14,7 @@ dataSet[dataSetVersion].options = [
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (33)", key: "Y5" },
       { name: "Cinderella Festival SSRs (37)", key: "FES"},
-      { name: "Permanent SSRs (211)", key: "PERM"},
+      { name: "Permanent SSRs (215)", key: "PERM"},
     ]
   },
  {
@@ -2467,6 +2467,30 @@ dataSet[dataSetVersion].characterData = [
   },{
     name: "Rei Shinohara (Perm)",
     img: "DetQTvK.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
+    name: "Miu Yagachi (Perm)",
+    img: "xjxeKGW.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ]
+    }
+  },{
+    name: "Misato Manaka (Perm)",
+    img: "nIKX8mx.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ]
+    }
+  },{
+    name: "Midori Mizuno (Perm)",
+    img: "2aTQ6jk.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ]
+    }
+  },{
+    name: "Helen (Perm)",
+    img: "go2Cqjr.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ]
     }
