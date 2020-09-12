@@ -12,8 +12,8 @@ dataSet[dataSetVersion].options = [
       { name: "Year 2 Limited SSRs (24)", key: "Y2" },
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
-      { name: "Year 5 Limited SSRs (33)", key: "Y5" },
-      { name: "Cinderella Festival SSRs (37)", key: "FES"},
+      { name: "Year 5 Limited SSRs (36)", key: "Y5" },
+      { name: "Cinderella Festival SSRs (39)", key: "FES"},
       { name: "Permanent SSRs (215)", key: "PERM"},
     ]
   },
@@ -295,7 +295,20 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Year: [ "FES" ], Ticket: [], Type: [ "PASS" ]
     }
-  }, //END OF FES SSR START OF LIM SSR
+  },{
+    name: "Hajime Fujiwara (Cinfes)",
+    img: "6dFPPYm.png",
+    opts: {
+      Year: [ "FES" ], Ticket: [], Type: [ "COOL" ]
+    }
+  },{
+    name: "Riamu Yumemi (Cinfes)",
+    img: "znxGFQV.png",
+    opts: {
+      Year: [ "FES" ], Ticket: [], Type: [ "PASS" ]
+    }
+  },
+    //END OF FES SSR START OF LIM SSR
   {
     name: "Kanako Mimura (Sweet Halloween)",
     img: "nzDLiwM.png",
@@ -1199,6 +1212,24 @@ dataSet[dataSetVersion].characterData = [
   },{
     name: "Kako Takafuji (Fruitful Summer Ocean)",
     img: "u55aqoY.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
+    }    
+  },{
+    name: "Anzu Futaba (5th Anniversary in Summer)",
+    img: "iuah5Mq.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ]
+    }    
+  },{
+    name: "Mika Jougasaki (5th Anniversary in Summer)",
+    img: "GdbrZ4D.png",
+    opts: {
+      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ]
+    }    
+  },{
+    name: "Kanade Hayami (5th Anniversary in Summer)",
+    img: "IGWhLy7.png",
     opts: {
       Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ]
     }    
