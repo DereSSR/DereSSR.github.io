@@ -13,9 +13,9 @@ dataSet[dataSetVersion].options = [
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (36)", key: "Y5" },
-      //{ name: "Year 6 Limited SSRs (3)",  key: "Y6" },
+      { name: "Year 6 Limited SSRs (3)",  key: "Y6" },
       { name: "Cinderella Festival SSRs (40)", key: "FES"},
-      { name: "Permanent SSRs (219)", key: "PERM"},
+      { name: "Permanent SSRs (223)", key: "PERM"},
     ]
   },
  {
@@ -30,7 +30,7 @@ dataSet[dataSetVersion].options = [
     ]
   },
     {
-    name: "Filter by availability in the 2020 Anniversary Limited Ticket",
+    name: "Filter by availability in the 2021 Anniversary Limited Ticket",
     key: "Ticket",
     tooltip: "Check this if you only want to see SSRs that will be in the limited ticket.",
     checked: false,
@@ -299,50 +299,50 @@ dataSet[dataSetVersion].characterData = [
     name: "Momoka Sakurai (Cinfes)",
     img: "OZta0HI.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "CUTE" ], Skill: ["SYM"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["SYM"]
     }
   },
     {
     name: "Nina Ichihara (Cinfes)",
     img: "l0irKNt.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "PASS" ], Skill: ["RESO"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["RESO"]
     }
   },{
     name: "Minami Nitta (Cinfes)",
     img: "EqXcuSj.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "COOL" ], Skill: ["SYM"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["SYM"]
     }
   },{
     name: "Frederica Miyamoto (Cinfes)",
     img: "JSSnp3C.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "CUTE" ], Skill: ["RESO"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["RESO"]
     }
   },{
     name: "Aiko Takamori (Cinfes)",
     img: "j4TxzXD.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "PASS" ], Skill: ["SYM"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["SYM"]
     }
   },{
     name: "Hajime Fujiwara (Cinfes)",
     img: "6dFPPYm.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "COOL" ], Skill: ["SYM"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["SYM"]
     }
   },{
     name: "Riamu Yumemi (Cinfes)",
     img: "znxGFQV.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "PASS" ], Skill: ["RESO"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["RESO"]
     }
   },{
     name: "Mayu Sakuma (Cinfes)",
     img: "svaAH60.png",
     opts: {
-      Year: [ "FES" ], Ticket: [], Type: [ "CUTE" ], Skill: ["SYM"]
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["SYM"]
     }
   },
     //END OF FES SSR START OF LIM SSR
@@ -1106,189 +1106,189 @@ dataSet[dataSetVersion].characterData = [
     name: "Tomoe Murakami (New Years Kimono)",
     img: "aEezfnQ.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["HEAL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["HEAL"]
     }
   },
     {
     name: "Nono Morikubo (New Years Kimono)",
     img: "crFkmMO.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["LS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["LS"]
     }
   },
     {
     name: "Miku Maekawa (New Years Kimono)",
     img: "2Et8OmN.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ENS"]
     }
   },
     {
     name: "Hina Araki (Valentine Girls)",
     img: "a1VMbPr.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["LS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["LS"]
     }
   },
     {
     name: "Yukari Mizumoto (Valentine Girls)",
     img: "8MPRX4s.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["OL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["OL"]
     }
   },
     {
     name: "Shin Sato (Valentine Girls)",
     img: "XuZQDUb.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ENS"]
     }
   },
     {
     name: "Nagi Hisakawa (Brand New Story)",
     img: "0nqsJCx.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ALT"]
     }
   },{
     name: "Chiyo Shirayuki (Brand New Story)",
     img: "0QkFrlU.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["OL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["OL"]
     }
   },{
     name: "Arisu Tahchibana (Brand New Story)",
     img: "2jvt5WM.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ENS"]
     }
   },{
     name: "Hayate Hisakawa (Springtime After School)",
     img: "THAtB5X.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["HEAL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["HEAL"]
     }
   },{
     name: "Yoshino Yorita (Springtime After School)",
     img: "2IR13Qv.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ENS"]
     }
   },{
     name: "Mirei Hayasaka (Springtime After School)",
     img: "UO0sGtQ.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ALT"]
     }
   },{
     name: "Uzuki Shimamura (New Adventure)",
     img: "XcwvR8i.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ENS"]
     }
   },{
     name: "Rin Shibuya (New Adventure)",
     img: "KhAKq2E.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ENS"]
     }
   },{
     name: "Mio Honda (New Adventure)",
     img: "pGtLApC.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ENS"]
     }    
   },{
     name: "Chitose Kurosaki (Pure Bridal)",
     img: "uxTf4MN.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ENS"]
     }    
   },{
     name: "Eve Santaclaus (Pure Bridal)",
     img: "eMjlINt.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["CU"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["CU"]
     }    
   },{ 
     name: "Mizuki Kawashima (Pure Bridal)",
     img: "m8Yi84v.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ALT"]
     }    
   },{
     name: "Akira Sunazuka (Tanabata☆Summer)",
     img: "vGOEEI4.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["CU"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["CU"]
     }    
   },{
     name: "Kozue Yusa (Tanabata☆Summer)",
     img: "0qngH6p.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["HEAL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["HEAL"]
     }    
   },{
     name: "Natalia (Tanabata☆Summer)",
     img: "QSeDE2I.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ALT"]
     }    
   },{
     name: "Akari Tsujino (Fruitful Summer Ocean)",
     img: "QFsxZe3.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ALT"]
     }    
   },{
     name: "Airi Totoki (Fruitful Summer Ocean)",
     img: "aHOw0rF.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["ENS"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ENS"]
     }    
   },{
     name: "Kako Takafuji (Fruitful Summer Ocean)",
     img: "u55aqoY.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["OL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["OL"]
     }    
   },{
     name: "Anzu Futaba (5th Anniversary in Summer)",
     img: "iuah5Mq.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ALT"]
     }    
   },{
     name: "Mika Jougasaki (5th Anniversary in Summer)",
     img: "GdbrZ4D.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "PASS" ], Skill: ["OL"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["OL"]
     }    
   },{
     name: "Kanade Hayami (5th Anniversary in Summer)",
     img: "IGWhLy7.png",
     opts: {
-      Year: [ "Y5" ], Ticket: [], Type: [ "COOL" ], Skill: ["ENS"]
-    }    
-  },/**{
-    name: "k (Halloween)",
-    img: "iuah5Mq.png",
-    opts: {
-      Year: [ "Y6" ], Ticket: [], Type: [ "CUTE" ], Skill: ["ALT"]
+      Year: [ "Y5" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ENS"]
     }    
   },{
-    name: "k (Halloween)",
-    img: "GdbrZ4D.png",
+    name: "Yukimi Sajo (Dreamy Fairytale Halloween)",
+    img: "C0z0vdZ.png",
     opts: {
-      Year: [ "Y6" ], Ticket: [], Type: [ "PASS" ], Skill: ["OL"]
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ALT"]
     }    
   },{
-    name: "k (Halloween)",
-    img: "IGWhLy7.png",
+    name: "Chieri Ogata (Dreamy Fairytale Halloween)",
+    img: "yez8Wjv.png",
     opts: {
-      Year: [ "Y6" ], Ticket: [], Type: [ "COOL" ], Skill: ["ENS"]
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["ENS"]
     }    
-  },**/
+  },{
+    name: "Hinako Kita (Dreamy Fairytale Halloween)",
+    img: "pA6Txn3.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ALT"]
+    }    
+  },
     //END OF LIM SSR START OF PERM SSR
     {
     name: "Uzuki Shimamura (1st Perm)",
@@ -1369,7 +1369,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["SU"]
     }
   },{
-    name: "Yuki Himekawa (Perm)",
+    name: "Yuki Himekawa (1st Perm)",
     img: "H56kMcA.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["SU"]
@@ -1705,7 +1705,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["SU"]
     }
   },{
-    name: "Emi Namba (Perm)",
+    name: "Emi Namba (1st Perm)",
     img: "FNc5HV4.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["SU"]
@@ -1729,7 +1729,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["SU"]
     }
   },{
-    name: "Kotoka Saionji (Perm)",
+    name: "Kotoka Saionji (1st Perm)",
     img: "jTGAAWw.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["AR"]
@@ -2101,7 +2101,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["FA"]
     }
   },{
-    name: "Chiaki Kurokawa (Perm)",
+    name: "Chiaki Kurokawa (1st Perm)",
     img: "yh3ycqS.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["CONC"]
@@ -2603,6 +2603,30 @@ dataSet[dataSetVersion].characterData = [
     img: "jzJFCZS.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["SA"]
+    }
+  },{
+    name: "Kotoka Saionji (2nd Perm)",
+    img: "6nR44yy.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Yuki Himekawa (2nd Perm)",
+    img: "zKjwxIL.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["HA"]
+    }
+  },{
+    name: "Chiaki Kurokawa (2nd Perm)",
+    img: "KdQ2NVG.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Emi Namba(2nd Perm)",
+    img: "qr1g5UK.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["TUNE"]
     }
   },
   
