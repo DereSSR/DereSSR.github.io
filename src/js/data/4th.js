@@ -13,9 +13,9 @@ dataSet[dataSetVersion].options = [
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (36)", key: "Y5" },
-      { name: "Year 6 Limited SSRs (3)",  key: "Y6" },
-      { name: "Cinderella Festival SSRs (40)", key: "FES"},
-      { name: "Permanent SSRs (223)", key: "PERM"},
+      { name: "Year 6 Limited SSRs (9)",  key: "Y6" },
+      { name: "Cinderella Festival SSRs (42)", key: "FES"},
+      { name: "Permanent SSRs (227)", key: "PERM"},
     ]
   },
  {
@@ -60,6 +60,7 @@ dataSet[dataSetVersion].options = [
       { name: "Ensemble", key: "ENS" },
       { name: "Resonance", key: "RESO" },
       { name: "Charm", key: "CHARM" },
+      { name: "Refrain", key: "REF" },
       { name: "Symphony", key: "SYM" },
       { name: "Skill Boost", key: "SB" },
       { name: "Perfect Support", key: "PERF" },
@@ -343,6 +344,18 @@ dataSet[dataSetVersion].characterData = [
     img: "svaAH60.png",
     opts: {
       Year: [ "FES" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["SYM"]
+    }
+  },{
+    name: "Riina Tada (Cinfes)",
+    img: "G4hYLdT.png",
+    opts: {
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["REF"]
+    }
+  },{
+    name: "Syoko Hoshi (Cinfes)",
+    img: "WGfSOuQ.png",
+    opts: {
+      Year: [ "FES" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["SYM"]
     }
   },
     //END OF FES SSR START OF LIM SSR
@@ -1288,6 +1301,42 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ALT"]
     }    
+  },{
+    name: "Natsuki Kimura (Autumn Blush Onsen)",
+    img: "Q0JZcaH.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Syuko Shiomi (Autumn Blush Onsen)",
+    img: "2ZIdJSs.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Sae Kobayakawa (Autumn Blush Onsen)",
+    img: "rZdHyev.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["OL"]
+    }    
+  },{
+    name: "Ranko Kanzaki (Merry Christmas Showtime)",
+    img: "HV1qtgD.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "COOL" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Miho Kohanata (Merry Christmas Showtime)",
+    img: "nBealHu.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "CUTE" ], Skill: ["CU"]
+    }    
+  },{
+    name: "Yuko Hori (Merry Christmas Showtime)",
+    img: "7Oz6JTu.png",
+    opts: {
+      Year: [ "Y6" ], Ticket: ["TIX"], Type: [ "PASS" ], Skill: ["ENS"]
+    }    
   },
     //END OF LIM SSR START OF PERM SSR
     {
@@ -1525,7 +1574,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["SU"]
     }
   },{
-    name: "Ayame Hamaguchi (Perm)",
+    name: "Ayame Hamaguchi (1st Perm)",
     img: "AfydLFV.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["SU"]
@@ -1681,7 +1730,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["SU"]
     }
   },{
-    name: "Aki Yamato (Perm)",
+    name: "Aki Yamato (1st Perm)",
     img: "dBFoGW6.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["AR"]
@@ -1873,7 +1922,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["AR"]
     }
   },{
-    name: "Michiru Ohara (Perm)",
+    name: "Michiru Ohara (1st Perm)",
     img: "j8CqWqy.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["AR"]
@@ -1963,7 +2012,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
     }
   },{
-    name: "Miyo Harada (Perm)",
+    name: "Miyo Harada (1st Perm)",
     img: "uyteIwn.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["CONC"]
@@ -2623,10 +2672,34 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
     }
   },{
-    name: "Emi Namba(2nd Perm)",
+    name: "Emi Namba (2nd Perm)",
     img: "qr1g5UK.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["TUNE"]
+    }
+  },{
+    name: "Ayame Hamaguchi (2nd Perm)",
+    img: "SGaLSzp.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Aki Yamato (2nd Perm)",
+    img: "adsrQFV.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["FA"]
+    }
+  },{
+    name: "Michiru Ohara (2nd Perm)",
+    img: "HCZjjUo.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["SA"]
+    }
+  },{
+    name: "Miyo Harada (2nd Perm)",
+    img: "ElbQ2qp.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["TUNE"]
     }
   },
   
