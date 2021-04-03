@@ -13,10 +13,10 @@ dataSet[dataSetVersion].options = [
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (36)", key: "Y5" },
-      { name: "Year 6 Limited SSRs (9)",  key: "Y6" },
-      { name: "Cinfes Blanc SSRs (42)", key: "BLANC"},
-      { name: "Cinfes Noir SSRs (42)", key: "NOIR"},
-      { name: "Permanent SSRs (227)", key: "PERM"},
+      { name: "Year 6 Limited SSRs (18)",  key: "Y6" },
+      { name: "Cinfes Blanc SSRs (46)", key: "BLANC"},
+      { name: "Cinfes Noir SSRs (3)", key: "NOIR"},
+      { name: "Permanent SSRs (240)", key: "PERM"},
     ]
   },
  {
