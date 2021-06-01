@@ -2046,7 +2046,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["CONC"]
     }
   },{
-    name: "Sakura Muramatsu (Perm)",
+    name: "Sakura Muramatsu (1st Perm)",
     img: "WD6SgTN.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["PERF"]
@@ -2094,7 +2094,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["AR"]
     }
   },{
-    name: "Meiko Namiki (Perm)",
+    name: "Meiko Namiki (1st Perm)",
     img: "kuY9nGZ.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["CONC"]
@@ -2364,7 +2364,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["TUNE"]
     }
   },{
-    name: "Satomi Sakakibara (Perm)",
+    name: "Satomi Sakakibara (1st Perm)",
     img: "O7PWhXH.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["AR"]
@@ -2508,7 +2508,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["AR"]
     }
   },{
-    name: "Chinatsu Aikawa (Perm)",
+    name: "Chinatsu Aikawa (1st Perm)",
     img: "6Ei8UPV.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["TUNE"]
@@ -2646,7 +2646,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["AR"]
     }
   },{
-    name: "Chizuru Matsuo (Perm)",
+    name: "Chizuru Matsuo (1st Perm)",
     img: "pOJsiRq.png",
     opts: {
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["AR"]
@@ -2670,7 +2670,7 @@ dataSet[dataSetVersion].characterData = [
       Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
     }
   },{
-    name: "Natsumi Soma (Perm)",
+    name: "Natsumi Soma (1st Perm)",
     img: "RizqyV0.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["TUNE"]
