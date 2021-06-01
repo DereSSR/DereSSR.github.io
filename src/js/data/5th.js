@@ -13,10 +13,10 @@ dataSet[dataSetVersion].options = [
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (36)", key: "Y5" },
-      { name: "Year 6 Limited SSRs (18)",  key: "Y6" },
-      { name: "Cinfes Blanc SSRs (46)", key: "BLANC"},
-      { name: "Cinfes Noir SSRs (3)", key: "NOIR"},
-      { name: "Permanent SSRs (240)", key: "PERM"},
+      { name: "Year 6 Limited SSRs (24)",  key: "Y6" },
+      { name: "Cinfes Blanc SSRs (49)", key: "BLANC"},
+      { name: "Cinfes Noir SSRs (5)", key: "NOIR"},
+      { name: "Permanent SSRs (246)", key: "PERM"},
     ]
   },
  {
@@ -383,6 +383,24 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Year: [ "BLANC" ], Type: [ "COOL" ], Skill: ["SYM"]
     }
+  },{
+    name: "Kyoko Igarashi (Blanc Fes)",
+    img: "pxuEpA0.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "CUTE" ], Skill: ["RESO"]
+    }
+  },{
+    name: "Hina Araki (Blanc Fes)",
+    img: "39ddx4k.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "COOL" ], Skill: ["RESO"]
+    }
+  },{
+    name: "Haruna Kamijo (Blanc Fes)",
+    img: "Bn4VLkp.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "COOL" ], Skill: ["CHARM"]
+    }
   },
     //END OF BLANC SSR START OF NOIR SSR
     {
@@ -402,6 +420,18 @@ dataSet[dataSetVersion].characterData = [
     img: "NPi5s3Z.png",
     opts: {
       Year: [ "NOIR" ], Type: [ "PASS" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Karen Hojo (Noir Fes)",
+    img: "84iv40k.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "COOL" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Nana Abe (Noir Fes)",
+    img: "DmyBS7d.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "CUTE" ], Skill: ["MAGIC"]
     }
   },
     //END OF NOIR SSR START OF LIM SSR
@@ -1435,7 +1465,43 @@ dataSet[dataSetVersion].characterData = [
     name: "Nanami Asari (Inviting Spring Breaze)",
     img: "FRhdoT9.png",
     opts: {
-      Year: [ "Y6" ], Type: [ "Cool" ], Skill: ["ALT"]
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Shin Sato (Uniform☆Memorial)",
+    img: "kJ8Xcwf.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "PASS" ], Skill: ["LS"]
+    }    
+  },{
+    name: "Miyu Mifune (Uniform☆Memorial)",
+    img: "VLlpGyM.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Arisa Mochida (Uniform☆Memorial)",
+    img: "YHnHLFM.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "CUTE" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Riamu Yumemi (A New World)",
+    img: "5kdlv5N.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "PASS" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Hiromi Seki (A New World)",
+    img: "AP55tvI.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "CUTE" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Asuka Ninomiya (A New World)",
+    img: "gwxZfsw.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ALT"]
     }    
   },
     //END OF LIM SSR START OF PERM SSR
@@ -2878,6 +2944,42 @@ dataSet[dataSetVersion].characterData = [
     img: "97ciAFP.png",
     opts: {
       Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Chizuru Matsuo (2nd Perm)",
+    img: "5qMJoSt.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Meiko Namiki (2nd Perm)",
+    img: "trPk6uz.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["TUNE"]
+    }
+  },{
+    name: "Satomi Sakakibara (2nd Perm)",
+    img: "8exUpju.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["FA"]
+    }
+  },{
+    name: "Chinatsu Aikawa (2nd Perm)",
+    img: "aqVCKpQ.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["HA"]
+    }
+  },{
+    name: "Sakura Muramatsu (2nd Perm)",
+    img: "ESBHUAM.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["SA"]
+    }
+  },{
+    name: "Natsumi Soma (2nd Perm)",
+    img: "UVTnxJg.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["FA"]
     }
   },
   
