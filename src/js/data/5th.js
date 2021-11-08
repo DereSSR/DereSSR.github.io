@@ -13,10 +13,11 @@ dataSet[dataSetVersion].options = [
       { name: "Year 3 Limited SSRs (24)", key: "Y3" },
       { name: "Year 4 Limited SSRs (27)", key: "Y4" },
       { name: "Year 5 Limited SSRs (36)", key: "Y5" },
-      { name: "Year 6 Limited SSRs (24)",  key: "Y6" },
-      { name: "Cinfes Blanc SSRs (49)", key: "BLANC"},
-      { name: "Cinfes Noir SSRs (5)", key: "NOIR"},
-      { name: "Permanent SSRs (246)", key: "PERM"},
+      { name: "Year 6 Limited SSRs (36)", key: "Y6" },
+      { name: "Year 7 Limited SSRs (6)",  key: "Y7" },
+      { name: "Cinfes Blanc SSRs (54)", key: "BLANC"},
+      { name: "Cinfes Noir SSRs (10)", key: "NOIR"},
+      { name: "Permanent SSRs (261)", key: "PERM"},
     ]
   },
  {
@@ -52,6 +53,7 @@ dataSet[dataSetVersion].options = [
       { name: "Flick Act", key: "FA" },
       { name: "Slide Act", key: "SA" },
       { name: "Alternate", key: "ALT" },
+      { name: "Mutual", key: "MUT" },
       { name: "Combo Bonus", key: "CU" },
       { name: "All Rounder", key: "AR" },
       { name: "Healer", key: "HEAL" },
@@ -401,6 +403,36 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       Year: [ "BLANC" ], Type: [ "COOL" ], Skill: ["CHARM"]
     }
+  },{
+    name: "Kozue Yusa (Blanc Fes)",
+    img: "Xmm7re7.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "CUTE" ], Skill: ["REF"]
+    }
+  },{
+    name: "Akane Hino (Blanc Fes)",
+    img: "VdsJlkQ.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "PASS" ], Skill: ["CHARM"]
+    }
+  },{
+    name: "Nono Morikubo (Blanc Fes)",
+    img: "pwDoi78.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "COOL" ], Skill: ["REF"]
+    }
+  },{
+    name: "Akari Tsujino (Blanc Fes)",
+    img: "3DY6Urw.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "CUTE" ], Skill: ["RESO"]
+    }
+  },{
+    name: "Yuko Hori (Blanc Fes)",
+    img: "IZK2oM3.png",
+    opts: {
+      Year: [ "BLANC" ], Type: [ "PASS" ], Skill: ["REF"]
+    }
   },
     //END OF BLANC SSR START OF NOIR SSR
     {
@@ -432,6 +464,36 @@ dataSet[dataSetVersion].characterData = [
     img: "DmyBS7d.png",
     opts: {
       Year: [ "NOIR" ], Type: [ "CUTE" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Yoshino Yorito (Noir Fes)",
+    img: "V2p8pgL.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "PASS" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Fumika Sagisawa (Noir Fes)",
+    img: "NbodRem.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "COOL" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Aiko Takamori (Noir Fes)",
+    img: "aD5m9pv.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "PASS" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Shiki Ichinose (Noir Fes)",
+    img: "DJtDTm5.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "CUTE" ], Skill: ["MAGIC"]
+    }
+  },{
+    name: "Nao Kamiya (Noir Fes)",
+    img: "vHZqeYe.png",
+    opts: {
+      Year: [ "NOIR" ], Type: [ "COOL" ], Skill: ["MAGIC"]
     }
   },
     //END OF NOIR SSR START OF LIM SSR
@@ -1502,6 +1564,114 @@ dataSet[dataSetVersion].characterData = [
     img: "gwxZfsw.png",
     opts: {
       Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Arisu Tachibana (Bridal Flowers)",
+    img: "rV3ZmZR.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["LS"]
+    }    
+  },{
+    name: "Yukari Mizumoto (Bridal Flowers)",
+    img: "SLpc15w.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "CUTE" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Yumi Aiba (Bridal Flowers)",
+    img: "xB46nl8.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "PASS" ], Skill: ["OL"]
+    }    
+  },{
+    name: "Rin Shibuya (Future☆Yukata)",
+    img: "GhsD2Yn.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Chitose Kurosaki (Future☆Yukata)",
+    img: "szty1PJ.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "CUTE" ], Skill: ["OL"]
+    }    
+  },{
+    name: "Rika Jougasaki (Future☆Yukata)",
+    img: "XA5FOvH.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "PASS" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Frederica Miyamoto (Red Hot Summer)",
+    img: "FIhVRBM.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "CUTE" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Eve Santaclaus (Red Hot Summer)",
+    img: "RqojdRb.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "PASS" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Hajime Fujiwara (Red Hot Summer)",
+    img: "ZYmlj85.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Mayu Sakuma (6th Anniversary Party)",
+    img: "XZR0GB4.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "CUTE" ], Skill: ["MUT"]
+    }    
+  },{
+    name: "Hayate Hisakawa (6th Anniversary Party)",
+    img: "wtudHhP.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "COOL" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Mio Honda (6th Anniversary Party)",
+    img: "gPO2cXA.png",
+    opts: {
+      Year: [ "Y6" ], Type: [ "PASS" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Kanade Hayami (Demonic Halloween Night)",
+    img: "BDEttsO.png",
+    opts: {
+      Year: [ "Y7" ], Type: [ "COOL" ], Skill: ["MUT"]
+    }    
+  },{
+    name: "Yuuki Otokura (Demonic Halloween Night)",
+    img: "RnDqosg.png",
+    opts: {
+      Year: [ "Y7" ], Type: [ "CUTE" ], Skill: ["LS"]
+    }    
+  },{
+    name: "Tomoe Murakami (Demonic Halloween Night)",
+    img: "H1O0MDM.png",
+    opts: {
+      Year: [ "Y7" ], Type: [ "PASS" ], Skill: ["ENS"]
+    }    
+  },{
+    name: "Mika Jougasaki (Hot Springs Beauties)",
+    img: "H6ncgw1.png",
+    opts: {
+      Year: [ "Y7" ], Type: [ "PASS" ], Skill: ["MUT"]
+    }    
+  },{
+    name: "Miho Kohinata (Hot Springs Beauties)",
+    img: "QVYS4jQ.png",
+    opts: {
+      Year: [ "Y7" ], Type: [ "CUTE" ], Skill: ["ALT"]
+    }    
+  },{
+    name: "Yukimi Sajo (Hot Springs Beauties)",
+    img: "VJswGOW.png",
+    opts: {
+      Year: [ "Y7" ], Type: [ "COOL" ], Skill: ["ENS"]
     }    
   },
     //END OF LIM SSR START OF PERM SSR
@@ -2980,6 +3150,96 @@ dataSet[dataSetVersion].characterData = [
     img: "UVTnxJg.png",
     opts: {
       Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["FA"]
+    }
+  },{
+    name: "Saori Okuyama (2nd Perm)",
+    img: "1Jgs1ko.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["TUNE"]
+    }
+  },{
+    name: "Yuzu Kitami (2nd Perm)",
+    img: "XDCFJl7.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["SA"]
+    }
+  },{
+    name: "Rumi Wakui (2nd Perm)",
+    img: "012n2uh.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Yoriko Furusawa (2nd Perm)",
+    img: "yE4zm0d.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["TUNE"]
+    }
+  },{
+    name: "Rena Hyodo (2nd Perm)",
+    img: "kQBrYik.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["FA"]
+    }
+  },{
+    name: "Kai Nishijima (2nd Perm)",
+    img: "B5DNuwS.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Sarina Matsumoto (2nd Perm)",
+    img: "f5fIcfC.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["FA"]
+    }
+  },{
+    name: "Nene Kurihara (2nd Perm)",
+    img: "W9JWwLu.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Ema Senzaki (2nd Perm)",
+    img: "SqvsB0w.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["COORD"]
+    }
+  },{
+    name: "Kaori Ryuzaki (3rd Perm)",
+    img: "2JLVsXk.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["FA"]
+    }
+  },{
+    name: "Noriko Shiina(2nd Perm)",
+    img: "3bwu6pS.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "CUTE" ], Skill: ["TUNE"]
+    }
+  },{
+    name: "Nanami Asari (2nd Perm)",
+    img: "pUGT3FJ.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["HA"]
+    }
+  },{
+    name: "Ibuki Komatsu (2nd Perm)",
+    img: "gVbyEie.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "PASS" ], Skill: ["HA"]
+    }
+  },{
+    name: "Honoka Ayase (2nd Perm)",
+    img: "0BvGlBu.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["SA"]
+    }
+  },{
+    name: "Makino Yagami (3rd Perm)",
+    img: "B8afM4C.png",
+    opts: {
+      Year: [ "PERM" ], Type: [ "COOL" ], Skill: ["COORD"]
     }
   },
   
